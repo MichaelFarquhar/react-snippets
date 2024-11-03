@@ -1,0 +1,69 @@
+{
+  "React Function Component with export const": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "rc",
+    "body": [
+      "export const ${1:Component} = () => {",
+      "",
+      "  ${2}  ",
+      "",
+      "  return (",
+      "    <></>",
+      "  )",
+      "}"
+    ],
+    "description": "React Function Component with export const"
+  },
+  "React Function Component with typescript props": {
+    "prefix": "rct",
+    "body": [
+      "interface Props {",
+      "  ",
+      "}",
+      "",
+      "export const ${1:Component} = ({} : Props) => {",
+      "",
+      "  ${2}  ",
+      "",
+      "  return (",
+      "    <></>",
+      "  )",
+      "}"
+    ],
+    "description": "React Function Component with export const with typescript props"
+  },
+  "useState Hook": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "ush",
+    "body": [
+      "const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState($2);"
+    ],
+    "description": "React useState hook with auto-capitalized setter"
+  },
+  "useEffect Hook": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "ueh",
+    "body": [
+      "useEffect(() => {",
+      "\t$1",
+      "}, []);"
+    ],
+    "description": "React useEffect hook with dependencies array"
+  },
+  "useRef Hook": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "urh",
+    "body": [
+      "const ${1:ref} = useRef();"
+    ],
+    "description": "React useRef hook with initial value"
+  },
+  "Ternary Operator": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "tern",
+    "body": [
+      "${1:condition} ? ${2:true} : ${3:false}"
+    ],
+    "description": "Ternary operator shorthand"
+  }
+}
