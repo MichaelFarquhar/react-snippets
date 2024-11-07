@@ -50,6 +50,26 @@
     ],
     "description": "React useEffect hook with dependencies array"
   },
+  "useCallback Hook": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "uch",
+    "body": [
+      "useCallback(() => {",
+      "\t$1",
+      "}, []);"
+    ],
+    "description": "React useCallback hook with dependencies array"
+  },
+  "useMemo Hook": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "umh",
+    "body": [
+      "useMemo(() => {",
+      "\t$1",
+      "}, []);"
+    ],
+    "description": "React useMemo hook with dependencies array"
+  },
   "useRef Hook": {
     "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "urh",
