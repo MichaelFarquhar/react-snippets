@@ -12,8 +12,10 @@ Collection of my own react snippets I use, supporting both JavaScript and TypeSc
 |-------|----------------------------------------------|
 | rc    | React Function Component with `export const` |
 | rct   | Same as above but with a props interface     |
-| efh   | useEffect Hook                               |
 | ush   | useState Hook                                |
+| efh   | useEffect Hook                               |
+| ech   | useCallback Hook                             |
+| emh   | useMemo Hook                                 |
 | urh   | useRef Hook                                  |
 | tern  | Ternary Operator Condition                   |
 
