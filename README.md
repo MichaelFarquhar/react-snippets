@@ -6,10 +6,19 @@
 
 Collection of my own react snippets I use, supporting both JavaScript and TypeScript.
 
+## How To Add Snippets
+
+- Open the Command Palette (Ctrl+Shift+P / Cmd+Shift+P)
+- Type "Configure User Snippets" and select it
+- Choose "New Global Snippets file..."
+- Name your snippets file whatever you'd like
+- Copy and paste the snippets into the newly created file
+
 ## ✂️ Snippets
 
 | Alias | Purpose                                      |
 |-------|----------------------------------------------|
+| imr   | Import React statement                       |
 | rc    | React Function Component with `export const` |
 | rct   | Same as above but with a props interface     |
 | ush   | useState Hook                                |
