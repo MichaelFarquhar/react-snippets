@@ -1,4 +1,12 @@
 {
+  "Import React": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "imr",
+    "body": [
+      "import React from 'react'"
+    ],
+    "description": "Import React statement"
+  },
   "React Function Component with export const": {
     "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "rc",
@@ -15,6 +23,7 @@
     "description": "React Function Component with export const"
   },
   "React Function Component with typescript props": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "rct",
     "body": [
       "interface Props {",
