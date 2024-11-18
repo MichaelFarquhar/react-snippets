@@ -94,5 +94,25 @@
       "${1:condition} ? ${2:true} : ${3:false}"
     ],
     "description": "Ternary operator shorthand"
+  },
+  "Loading useState hook": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "ushLoad",
+    "body": [
+      "const [loading, setLoading] = useState(false);"
+    ],
+    "description": "Generic loading boolean useState hook"
+  },
+  "useImperativeHandle Hook": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "uihh",
+    "body": [
+      "useImperativeHandle(ref, () => {",
+      "\treturn {",
+      "\t\t$1",
+      "\t};",
+      "}, []);"
+    ],
+    "description": "React useImperativeHandle hook with ref and dependencies array"
   }
 }
