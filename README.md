@@ -27,6 +27,8 @@ Collection of my own react snippets I use, supporting both JavaScript and TypeSc
 | emh   | useMemo Hook                                 |
 | urh   | useRef Hook                                  |
 | tern  | Ternary Operator Condition                   |
+| ushLoad  | Generic loading state hook                |
+| uihh  | useImperativeHandle hook                     |
 
 ## 📄 License
 
