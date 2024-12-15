@@ -29,6 +29,7 @@ Collection of my own react snippets I use, supporting both JavaScript and TypeSc
 | tern  | Ternary Operator Condition                   |
 | ushLoad  | Generic loading state hook                |
 | uihh  | useImperativeHandle hook                     |
+| utt   | useTranslation hook with t function          |
 
 ## 📄 License
 
