@@ -11,13 +11,12 @@
     "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "rc",
     "body": [
-      "export const ${1:Component} = () => {",
+      "export const ${TM_FILENAME_BASE} = () => {",
+      "\t${1}",
       "",
-      "  ${2}  ",
-      "",
-      "  return (",
-      "    <></>",
-      "  )",
+      "\treturn (",
+      "\t\t<></>",
+      "\t)",
       "}"
     ],
     "description": "React Function Component with export const"
@@ -27,12 +26,11 @@
     "prefix": "rct",
     "body": [
       "interface Props {",
-      "  ",
+      "\t",
       "}",
       "",
-      "export const ${1:Component} = ({} : Props) => {",
-      "",
-      "  ${2}  ",
+      "export const ${TM_FILENAME_BASE} = ({} : Props) => {",
+      "\t${1}",
       "",
       "  return (",
       "    <></>",
@@ -114,5 +112,13 @@
       "}, []);"
     ],
     "description": "React useImperativeHandle hook with ref and dependencies array"
+  },
+  "useTranslation Hook With T": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "utt",
+    "body": [
+      "const { t } = useTranslation()"
+    ],
+    "description": "useTranslation hook with t function"
   }
 }
