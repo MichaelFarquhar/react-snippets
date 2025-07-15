@@ -4,7 +4,7 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-Collection of my own react snippets I use, supporting both JavaScript and TypeScript.
+Collection of react snippets I use, supporting both JavaScript and TypeScript. I use these over the many pre-existing extensions because those generally clog up VS Code ton of snippets i would never use.
 
 ## How To Add Snippets
 
@@ -33,5 +33,5 @@ Collection of my own react snippets I use, supporting both JavaScript and TypeSc
 
 ## 📄 License
 
-This project is licensed under the ISC License - see the [LICENSE](/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
 
